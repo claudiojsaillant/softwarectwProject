@@ -14,12 +14,14 @@
   }
 
   body {
-    background-color: blue;
+     background-image: url('http://i.piccy.info/i9/4874877c8b836bec94178dc4d95574ed/1619497120/312144/1426682/New_York_Skyscrapers_2880x1920.jpg');
+    background-size: cover;
   }
 
     img {
-    width: 100%;
-    height:400px;
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
   }
 
 
@@ -48,31 +50,35 @@
           Log Out
         </a>
       </li>
+    
+      <li class="nav-item active"><a class="nav-link" href="/404">Map</a></li>
+
       <li class="nav-item active">
         <a class="nav-link" href="/credits">
           Credits
         </a>
       </li>
-      <li class="nav-item active"><a class="nav-link" href="https://new.mta.info/map/7551" target="_blank">Map</a></li>
+
     </ul>
+    
   </div>
 </nav>
-<marquee behavior="scroll" direction="left" scrollamount="4">Welcome to the NYC train app, have a secure trip!</marquee>
+<marquee behavior="scroll" direction="left" scrollamount="4">Welcome to the NYC train app, have a secure trip!   *** IMPORTANT ALERTS WILL BE DISPLAYES HERE ***</marquee>
 <div class="container">
     <div class="col">
-    <img
-      src="https://media.kasperskydaily.com/wp-content/uploads/sites/92/2015/12/06023356/train-hack-featured-1.jpg"
-      alt="">
+    <center><img
+      src="http://images.vfl.ru/ii/1619501872/8fadb19b/34237931.png"
+      alt=""></center>
     </div>
   <div class="jumbotron col">
     <h1 class="display-4 animate__animated animate__bounceInDown">
-      Welcome NYC stations app!
+      <center>Welcome NYC stations app!</center>
     </h1>
     <p class="lead animate__animated animate__bounceInDown">
-      A different way to get to the best station so you can easily get to your destination
+      <center>A different way to get to the best station so you can easily get to your destination</center>
     </p>
     <hr class="my-4" />
-    <h2 id="jumbotitle animate__animated animate__bounceInDown">Start seaching for stations today!</h2>
+    <h2 id="jumbotitle animate__animated animate__bounceInDown"><center>Start seaching for stations today!</center></h2>
     <div class="row justify-content-around mx-auto btns">
       <button id="stations" class="btn btn-primary justify-content-end">Look for stations</button>
       <button id="bytime" class="btn btn-primary justify-content-end">Look for stations by time</button>
@@ -87,9 +93,13 @@
     <p class="lead animate__animated animate__bounceInDown">
       Make sure to follow these on every station.
     </p>
-    <hr class="my-4" />
-    <ul>
-      <li>If you drop something on the trackway, do not attempt to retrieve it. Instead use the platform intercom to
+  <table border="0" width="100%" layout="fixed">
+	<col style="width:50%">
+	<col style="width:50%">
+	<thead>
+	<tr>
+		<th><img src="http://images.vfl.ru/ii/1619509464/ddc1981e/34238832.png"  style="width:80%;height:auto;"></th>
+		<th><li>If you drop something on the trackway, do not attempt to retrieve it. Instead use the platform intercom to
         request assistance.</li>
       <li>There is a crawl area underneath the platform that may provide some protection in the event of an accidental
         fall onto the track.</li>
@@ -106,12 +116,16 @@
       <li>Take a seat if possible; use handrails/handholds.</li>
       <li>Don’t lean against train doors; keep hands clear.</li>
       <li>Be ready to exit when you arrive at your stop.</li>
-      <li>Step away after exiting.</li>
+      <li>Step away after exiting.</li></th> </th>
+	</tr>
+	</thead>
+
     </ul>
 
 
 
   </div>
+
 </div>
 
 <script src="https://code.jquery.com/jquery.js"></script>
