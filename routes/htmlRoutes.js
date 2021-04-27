@@ -95,6 +95,11 @@ module.exports = function (app) {
     
   });
 
+  
+  app.get("/map", function (req, res) {
+    res.render("map");
+  });
+
   app.get("/bytime/:hr/:min", function(req, res) {
     api.getArrivalsByTime(req.params.hr, req.params.min).then(function(response) {
       response.data.result = response.data.result.slice(0, 10); 
@@ -109,4 +114,5 @@ module.exports = function (app) {
   app.get("*", function (req, res) {
     res.render("404");
   });
+
 };
